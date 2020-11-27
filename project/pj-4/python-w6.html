@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>1) 假设 t = (1, 2, 4, 3), t[1 : 3]为？</title>
+        <style>
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        
+        
+        
+    </head>
+    <body class="vscode-light">
+        <h2 id="1-假设-t--1-2-4-3-t1--3为">1) 假设 t = (1, 2, 4, 3), t[1 : 3]为？</h2>
+<pre><code>A. (1, 2)
+B. (1, 2, 4)
+C. (2, 4)
+D. (2, 4, 3)
+E. [2, 4]
+F. [1, 2]
+</code></pre>
+<h4 id="d">D</h4>
+<h2 id="2-假设-t1--1-2-4-3-t2--1-2-3-4-t1--t2结果为">2) 假设 t1 = (1, 2, 4, 3), t2 = (1, 2, 3, 4), t1 &lt; t2结果为？</h2>
+<pre><code>A. True
+B. False
+</code></pre>
+<h4 id="b">B</h4>
+<h2 id="3-下列代码执行后输出为">3) 下列代码执行后输出为？</h2>
+<pre><code class="language-python"><div>x, y = <span class="hljs-number">1</span>, <span class="hljs-number">2</span>
+x, y = y, x
+print(x, y)
+</div></code></pre>
+<pre><code> A. 1 1
+ B. 2 2
+ C. 1 2
+ D. 2 1
+</code></pre>
+<h4 id="d-1">D</h4>
+<h2 id="4-下列代码执行后变量xy和z-的值是什么">4) 下列代码执行后变量x、y和z 的值是什么？</h2>
+<pre><code class="language-python"><div>x, y, z = <span class="hljs-string">'123'</span>
+</div></code></pre>
+<pre><code> A. 1 2 3
+ B. '1' '2' '3'
+ C. '123' ''  ''
+ D. '123'  None  None
+</code></pre>
+<h4 id="b-1">B</h4>
+<h2 id="5-下列代码执行后变量xyz和f的值是什么">5) 下列代码执行后变量x、y、z和f的值是什么？</h2>
+<pre><code class="language-python"><div>f = list(<span class="hljs-string">'abcdefg'</span>)
+x, *y, f[:<span class="hljs-number">4</span>], z = <span class="hljs-string">'1234567890'</span>
+</div></code></pre>
+<h4 id="x--1-y--2-3-4-5-6-7-8-f9-e-f-g-z--0">x = '1', y = ['2', '3', '4', '5', '6', '7' ,'8'], f=['9', 'e', 'f', 'g'], z = '0'</h4>
+<h2 id="6-下列代码执行后的结果是">6)  下列代码执行后的结果是？</h2>
+<pre><code class="language-python"><div>list1 = range(<span class="hljs-number">3</span>)
+list2 = <span class="hljs-string">'abcd'</span>
+list3 = <span class="hljs-string">'ABC'</span>
+list4 = list(zip(list1,list2,list3))
+print(list4)
+</div></code></pre>
+<pre><code>A. [(0, 'a', 'A'), (1, 'b', 'B'), (2, 'c', 'C') ]
+B. [(0, 'a', 'A'), (1, 'b', 'B'), (2, 'c', 'C'), (None, 'd', None) ]
+C. [[0, 'a', 'A'], [1, 'b', 'B'], [2, 'c', 'C'] ]
+D. 抛出异常
+</code></pre>
+<h4 id="a">A</h4>
+<h2 id="7-下列代码执行后的结果是">7) 下列代码执行后的结果是？</h2>
+<pre><code class="language-python"><div>list1 = range(<span class="hljs-number">3</span>)
+<span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> enumerate(list1):
+    print(i,end=<span class="hljs-string">'\t'</span>)
+</div></code></pre>
+<pre><code>A. (0, 0)	(1, 1)	(2, 2)
+B. [0, 0]	[1, 1]	[2, 2]
+C. (1, 0)	(2, 1)	(3, 2)
+D. 0	1	2
+</code></pre>
+<h4 id="a-1">A</h4>
+<h2 id="8-假设isprime是一个boolean变量下列哪个判断isprime是否为true的选项最好">8.  假设isPrime是一个boolean变量，下列哪个判断isPrime是否为True的选项最好？</h2>
+<pre><code> A. if isPrime = True:
+ B. if isPrime == True:
+ C. if isPrime:
+ D. if not isPrime = False:
+ E. if not isPrime == False:
+</code></pre>
+<h4 id="c">C</h4>
+<h2 id="9-分析下列代码最后的输出是什么">9. 分析下列代码，最后的输出是什么？</h2>
+<pre><code class="language-python"><div>even = <span class="hljs-literal">False</span>
+<span class="hljs-keyword">if</span> even = <span class="hljs-literal">True</span>:
+    print(<span class="hljs-string">"It is even!"</span>)
+</div></code></pre>
+<h4 id="invalid-syntax">invalid syntax</h4>
+<h2 id="10-下列代码最后输出是什么">10. 下列代码最后输出是什么？</h2>
+<pre><code class="language-python"><div>x = z = <span class="hljs-number">1</span>
+y = <span class="hljs-number">-1</span>
+
+<span class="hljs-keyword">if</span> x &gt; <span class="hljs-number">0</span>:
+    <span class="hljs-keyword">if</span> y &gt; <span class="hljs-number">0</span>:
+        print(<span class="hljs-string">"x &gt; 0 and y &gt; 0"</span>)
+<span class="hljs-keyword">elif</span> z &gt; <span class="hljs-number">0</span>:
+    print(<span class="hljs-string">"x &lt; 0 and z &gt; 0"</span>)
+</div></code></pre>
+<pre><code>A. x &gt; 0 and y &gt; 0
+B. x &lt; 0 and z &gt; 0
+C. x &lt; 0 and z &lt; 0
+D. 没有输出
+</code></pre>
+<h4 id="d-2">D</h4>
+<h2 id="11-下列代码最后输出是什么">11. 下列代码最后输出是什么？</h2>
+<pre><code class="language-python"><div>income = <span class="hljs-number">4001</span>
+<span class="hljs-keyword">if</span> income &gt; <span class="hljs-number">3000</span>:
+    print(<span class="hljs-string">"Income is greater than 3000"</span>)
+<span class="hljs-keyword">elif</span> income &gt; <span class="hljs-number">4000</span>:
+    print(<span class="hljs-string">"Income is greater than 4000"</span>)
+</div></code></pre>
+<pre><code> A. 没有输出
+ B. Income is greater than 3000
+ C. Income is greater than 3000
+    Income is greater than 4000
+ D. Income is greater than 4000
+ E. Income is greater than 4000
+    Income is greater than 3000
+</code></pre>
+<h4 id="b-2">B</h4>
+<h2 id="12-下列代码执行后y的值是">12. 下列代码执行后y的值是？</h2>
+<pre><code class="language-python"><div>x = <span class="hljs-number">0</span>
+y = <span class="hljs-number">10</span> <span class="hljs-keyword">if</span> x &gt; <span class="hljs-number">0</span> <span class="hljs-keyword">else</span> <span class="hljs-number">-10</span>
+</div></code></pre>
+<pre><code>A. -10
+B. 0
+C. 10
+D. 20
+E. 非法表达式
+</code></pre>
+<h4 id="a-2">A</h4>
+<h2 id="13-分析下列代码">13. 分析下列代码</h2>
+<pre><code class="language-python"><div><span class="hljs-comment">#代码块1</span>
+
+<span class="hljs-keyword">if</span> number % <span class="hljs-number">2</span> == <span class="hljs-number">0</span>:
+    even = <span class="hljs-literal">True</span>
+<span class="hljs-keyword">else</span>:
+    even = <span class="hljs-literal">False</span>
+
+<span class="hljs-comment">#代码块2</span>
+
+even = <span class="hljs-literal">True</span> <span class="hljs-keyword">if</span> number % <span class="hljs-number">2</span> == <span class="hljs-number">0</span> <span class="hljs-keyword">else</span> <span class="hljs-literal">False</span>
+
+<span class="hljs-comment">#代码块3</span>
+even = number % <span class="hljs-number">2</span> == <span class="hljs-number">0</span>
+</div></code></pre>
+<pre><code>A. 代码块2有语法错误
+B. 代码块3和2有语法错误
+C. 3个代码块都正确
+D. 代码块1有语法错误
+</code></pre>
+<h4 id="c-1">C</h4>
+<h2 id="14-请针对下列描述分别写出相应的条件表达式以判断该描述是否成立">14. 请针对下列描述,分别写出相应的条件表达式以判断该描述是否成立。</h2>
+<pre><code>a. x和y都等于0
+b. x和y其中至少有一个等于0
+c. x和y至少有一个等于0，但是不会都等于0
+</code></pre>
+<h4 id="a-if-not-a-or-b">a: if not (a or b):</h4>
+<h4 id="b-if-not-a-and-b">b: if not (a and b):</h4>
+<h4 id="c-if-not-a-and-b-or-not-b-and-a">c: if (not a and b) or (not b and a)</h4>
+<h2 id="15-请使用德摩根定理简化如下条件表达式要求不出现逻辑not运算">15. 请使用德摩根定理简化如下条件表达式，要求不出现逻辑not运算</h2>
+<pre><code>not (number % 2 == 0 and number % 3 == 0)
+</code></pre>
+<h4 id="number--2-or-number--3">number % 2 or number % 3</h4>
+<h2 id="16-x为一个整数请写出相应的代码根据x的取值分别输出x为正整数x为0和x为负整数">16. x为一个整数，请写出相应的代码，根据x的取值分别输出x为正整数、x为0和x为负整数。</h2>
+<h4 id="code">code:</h4>
+<pre><code class="language-python"><div><span class="hljs-keyword">if</span> x&gt;<span class="hljs-number">0</span>:
+    print(<span class="hljs-string">"x是正整数"</span>)
+<span class="hljs-keyword">elif</span> x==<span class="hljs-number">0</span>:
+    print(<span class="hljs-string">"x为0"</span>)
+<span class="hljs-keyword">else</span>:
+    print(<span class="hljs-string">"x为负整数"</span>)
+</div></code></pre>
+<h2 id="17-下列代码执行后输出是">17.  下列代码执行后输出是...</h2>
+<pre><code class="language-python"><div>number = <span class="hljs-number">6</span>
+<span class="hljs-keyword">while</span> number &gt; <span class="hljs-number">0</span>:
+    number -= <span class="hljs-number">3</span>
+    print(number, end = <span class="hljs-string">' '</span>)
+</div></code></pre>
+<pre><code>A. 6 3 0
+B. 6 3
+C. 3 0
+D. 3 0 -3
+E. 0 -3
+</code></pre>
+<h4 id="c-2">C</h4>
+<h2 id="18-下列代码执行后输出是">18. 下列代码执行后输出是....?</h2>
+<pre><code class="language-python"><div>sum = <span class="hljs-number">0</span>
+item = <span class="hljs-number">0</span>
+<span class="hljs-keyword">while</span> item &lt; <span class="hljs-number">5</span>:
+    item += <span class="hljs-number">1</span>
+    sum += item
+    <span class="hljs-keyword">if</span> sum &gt; <span class="hljs-number">4</span>: <span class="hljs-keyword">break</span>
+
+print(sum)
+</div></code></pre>
+<pre><code>A. 5
+B. 6
+C. 7
+D. 8
+</code></pre>
+<h4 id="b-3">B</h4>
+<h2 id="19-下列代码执行后输出是">19. 下列代码执行后输出是....?</h2>
+<pre><code class="language-python"><div>sum = <span class="hljs-number">0</span>
+item = <span class="hljs-number">0</span>
+<span class="hljs-keyword">while</span> item &lt; <span class="hljs-number">5</span>:
+    item += <span class="hljs-number">1</span>
+    sum += item
+    <span class="hljs-keyword">if</span> sum &gt;= <span class="hljs-number">4</span>: <span class="hljs-keyword">continue</span>
+
+print(sum)
+</div></code></pre>
+<pre><code>A. 15
+B. 16
+C. 17
+D. 18
+</code></pre>
+<h4 id="a-3">A</h4>
+<h2 id="20-下列代码执行完后的输出是">20. 下列代码执行完后的输出是：</h2>
+<pre><code class="language-python"><div>number = <span class="hljs-number">25</span>
+isPrime = <span class="hljs-literal">True</span>
+i = <span class="hljs-number">2</span>
+<span class="hljs-keyword">while</span> i &lt; number <span class="hljs-keyword">and</span> isPrime:
+    <span class="hljs-keyword">if</span> number % i == <span class="hljs-number">0</span>:
+        isPrime = <span class="hljs-literal">False</span>
+    i += <span class="hljs-number">1</span>
+
+print(<span class="hljs-string">"i is"</span>, i, <span class="hljs-string">"isPrime is"</span>, isPrime)
+</div></code></pre>
+<pre><code>A. i is 5 isPrime is True
+B. i is 5 isPrime is False
+C. i is 6 isPrime is True
+D. i is 6 isPrime is False
+</code></pre>
+<h4 id="d-3">D</h4>
+
+    </body>
+    </html>

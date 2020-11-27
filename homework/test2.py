@@ -1,0 +1,11 @@
+# 字符串格式化的用法, 以浮点数为例
+f1 = float('1230.141592653589793')
+print('format string:%%s\t(%s)' % f1)
+print('format string:%%f\t(%f)' % f1)
+print('format string:%%.4\t(%.4f)' % f1)
+print('format string:%%8.f\t(%8.f)' % f1)
+print('format string:%%8.4f\t(%8.4f)' % f1)
+print('format string:%%08.4f\t(%08.4f)' % f1)
+print('format string:%%8.2f\t(%8.2f)' % f1)
+print('format string:%%08.2f\t(%08.2f)' % f1)
+print('format string:%%-8.2f\t(%-8.2f)' % f1)

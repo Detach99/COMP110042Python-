@@ -1,0 +1,16 @@
+1. 27
+2. (-b+sqrt(b**2-4*a*c))/(2*a)
+3. def func(p):
+	i = input("请输入倍数")
+	print(double(p*i))
+4. 6.0
+5. A D E F
+6. 
+def almost_equal(x, y, epi):
+    if(abs(x-y)<=epi*1e-10):
+        return 1
+    else:
+        return 0
+
+		
+		
