@@ -38,7 +38,7 @@ Questions referring to basic knowledge of python language.
 请输入时间间隔(分钟): 2910
 2天30分钟
 
-## project 2: 温度转换
+### project 2: 温度转换
 1. 首先定义并实现函数 c2f_temperature()，该函数有一个参数，摄氏度描述的温度celsius，返回采用华氏度描述的温度fahrenheit。
 摄氏度转换到华氏度的公式为fahrenheit = (9 / 5) * celsius + 32
 
@@ -53,7 +53,7 @@ celsius	fahrenheit
 -15	5.0
 -10	14.0
 
-## project 3: 分数排名
+### project 3: 分数排名
 具体要求请参见 project3.pdf    project3.py    project3_util.py
 
  程序有如下功能： (提示：可以参考列表排序和切片部分的内容)
@@ -68,7 +68,7 @@ project3.py已经给出了部分代码，某个班级的某次考试的学生成绩已经保存在列表exam_sc
 
 你应该将下载的projet3_util.py和project.py保存在同一个目录中，仅仅需要修改project3.py中的代码。
 
-## project 4:轮盘赌颜色
+### project 4:轮盘赌颜色
 详细要求请参见project4.pdf
 
 在轮盘赌游戏中，轮盘上均匀分布着37个pocket，每个pocket对应着编号从0开始到36的数字，这些pocket具有不同的颜色：
@@ -79,7 +79,7 @@ project3.py已经给出了部分代码，某个班级的某次考试的学生成绩已经保存在列表exam_sc
 编号29到编号36的pocket中，奇数编号的pocket为黑色，而偶数编号的pocket为红色。
 编写程序，提示用户输入pocket编号，然后显示该pocket的颜色，如果用户输入了一个不在那37个编号中的数字，提示错误信息。暂时不考虑用户可能输入的不是整数的情形。要求采用多分支的选择结构（即if/elif/else）实现。
 
-## project 5:
+### project 5: 计算e
 计算自然对数的底数e的值，具体要求请下载project5.pdf
 
 在求和过程中不允许调用math的阶乘函数，也不允许自己实现一个函数来单独计算阶乘，也就是求和和求每一项应该在同一个循环中实现。
@@ -91,7 +91,7 @@ project3.py已经给出了部分代码，某个班级的某次考试的学生成绩已经保存在列表exam_sc
 程序的输出应该类似这样：
 e = 2.71828182845823
 
-## project 6:
+### project 6: 百鸡问题
 请下载project6.pdf      project6.py
 
 今有鸡翁一，值钱伍；鸡母一，值钱三；鸡雏三，值钱一。凡百钱买鸡百只，问鸡翁、母、雏各几何？ 出自《张邱建算经》
@@ -102,7 +102,7 @@ e = 2.71828182845823
 
 提示：可参考循环结构中的鸡兔同笼问题
 
-## project 7:
+### project 7: 生成成绩单
 程序有如下功能：具体请参见    project7.pdf    project7.py        project7_util.py
 
 首先随机产生一个班级的成绩单，然后按照学生ID的先后顺序打印成绩单，最后按照成绩排名的先后顺序打印成绩单。
